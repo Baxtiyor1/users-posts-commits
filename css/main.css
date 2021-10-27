@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  min-height: 65vh;
+}
+
+.header {
+  padding: 10px 0;
+  -webkit-box-shadow: 3px 3px 3px red;
+          box-shadow: 3px 3px 3px red;
+}
+
+.header__title {
+  text-align: center;
+}
+
+.user__list {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.user__list--close {
+  display: none;
+}
+
+.user__card {
+  width: 300px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 3px 3px red;
+          box-shadow: 0 0 3px 3px red;
+}
+
+.user__name {
+  border-bottom: 2px solid red;
+}
+
+.user__email {
+  display: inline-block;
+  margin: 15px 0 15px;
+}
+
+.user__company {
+  margin: 15px 0 15px;
+}
+
+.user__btn {
+  padding: 8px 20px;
+  border: none;
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 2px 2px red;
+          box-shadow: 0 0 2px 2px red;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.user__btn:hover {
+  background-color: red;
+}
+
+.footer {
+  padding: 10px 0;
+  -webkit-box-shadow: -4px -4px 4px red;
+          box-shadow: -4px -4px 4px red;
+}
+
+.footer__title {
+  text-align: center;
+}
+
+.post__list {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.post__list--close {
+  display: none;
+}
+
+.post__card {
+  width: 350px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 3px 3px red;
+          box-shadow: 0 0 3px 3px red;
+}
+
+.post__title {
+  margin: 15px 0;
+}
+
+.post__text {
+  margin-bottom: 15px;
+}
+
+.post__btn {
+  padding: 8px 20px;
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: 0 0 2px 2px red;
+          box-shadow: 0 0 2px 2px red;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.post__btn:hover {
+  background-color: red;
+}
+
+.commit__user {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.commit__post {
+  display: inline-block;
+}
+
+.commit__header--title {
+  margin: 15px 0;
+}
+
+.commit__header--text {
+  padding-bottom: 20px;
+  border-bottom: 3px solid gray;
+}
+
+.commit__list {
+  margin: 50px 0;
+}
+
+.commit__card {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=main.css.map */

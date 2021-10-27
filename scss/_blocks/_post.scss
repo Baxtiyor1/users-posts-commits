@@ -1,0 +1,35 @@
+.post{
+    &__list{
+        margin: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &--close{
+            display: none;
+        }
+    }
+    &__card{
+        width: 350px;
+        margin:0 20px 20px 0;
+        padding: 10px;
+        box-shadow: 0 0 3px 3px red;
+    }
+    &__title{
+        margin: 15px 0;
+    }
+    &__text{
+        margin-bottom: 15px;
+    }
+    &__btn{
+        padding: 8px 20px;
+        background-color: transparent;
+        border: none;
+        box-shadow: 0 0 2px 2px red;
+        cursor: pointer;
+        transition: 0.5s;
+        text-transform: uppercase;
+        &:hover{
+            background-color: red;
+        }
+    }
+}

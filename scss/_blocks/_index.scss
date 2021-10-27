@@ -1,0 +1,53 @@
+.header{
+    padding: 10px 0;
+    box-shadow: 3px 3px 3px red;
+    &__title{
+        text-align: center;
+    }
+}
+.user{
+    &__list{
+        margin: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        &--close{
+            display: none;
+        }
+    }
+    &__card{
+        width: 300px;
+        margin: 0 20px 20px 0;
+        padding: 10px;
+        box-shadow: 0 0 3px 3px red;
+    }
+    &__name{
+        border-bottom: 2px solid red;
+    }
+    &__email{
+        display: inline-block;
+        margin: 15px 0 15px;
+    }
+    &__company{
+        margin: 15px 0 15px;
+    }
+    &__btn{
+        padding: 8px 20px; 
+        border: none;
+        background-color: transparent;
+        box-shadow: 0 0 2px 2px red;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+            background-color: red;
+        }
+    }
+}
+
+.footer{
+    padding: 10px 0;
+    box-shadow: -4px -4px 4px red;
+    &__title{
+        text-align: center;
+    }
+}

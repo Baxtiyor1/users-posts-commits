@@ -1,0 +1,25 @@
+.commit{
+    &__user{
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 24px;
+    }
+    &__post{
+        display: inline-block;
+    }
+    &__header{
+        &--title{
+            margin: 15px 0;
+        }
+        &--text{
+            padding-bottom: 20px;
+            border-bottom: 3px solid gray;
+        }
+    }
+    &__list{
+        margin: 50px 0;
+    }
+    &__card{
+        margin-bottom: 15px;
+    }
+}

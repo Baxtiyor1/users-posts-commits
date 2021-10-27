@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="./posts.html">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Users</h1>
+        </div>
+    </header>
+    
+    <main>
+        <!-- users star -->
+        <div class="container">
+            <ul class="user__list"></ul>
+        </div>
+        <template id="user__template">
+            <li class="user__card">
+                <h2 class="user__name">Leanne Graham</h2>
+                <a class="user__email" href="mailto:Sincere@april.biz">Email: Sincere@april.biz</a>
+                <p class="user__address">Address: Gwenborough</p>
+                <p class="user__company">Company: Romaguera-Crona</p>
+                <button class="user__btn" type="button">see posts</button>
+            </li>
+        </template>
+        <!-- users end -->
+        
+        <!-- posts star -->
+        <div class="container">
+            <ul class="post__list"></ul>
+        </div>
+        
+        <template id="post__Template">
+            <li class="post__card">
+                <h2 class="post__header">userId: 1</h2>
+                <h3 class="post__title">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h3>
+                <p class="post__text">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+                <button class="post__btn" type="button">see commits</button>
+            </li>
+        </template>
+        <!-- posts end -->
+        
+        <!-- Commits star -->
+        <div class="container">
+            <div class="commit__header"></div>
+            <template id="commit__header--template">
+                <h1 class="commit__user">1-user</h1>
+                <h2 class="commit__post">3-post</h2>
+                <h3 class="commit__header--title">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h3>
+                <p class="commit__header--text">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</p>
+            </template>
+            <ol class="commit__list"></ol>
+            <template id="commit__template">
+                <li class="commit__card">
+                    <a class="commit__email" href="mailto:paloncha@mgail.com">paloncha@mgail.com</a>
+                    <p class="commit__text">est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et</p>
+                </li>
+            </template>
+        </div>
+        <!-- posts end -->
+    </main>
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer__title">Baxtiyor © 2021</h3>
+        </div>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
